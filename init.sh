@@ -10,3 +10,6 @@ done
 mkdir -p /tmp/.storage
 cd /tmp/.storage
 wget -c https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso -O boot.iso
+
+# Hacky recomended for most and standard user Download: https://iso.omarchy.org/omarchy-3.1.4.iso
+# SHA256: d845db165a2878e9543251e56e68750b4ce61b61b0e260e2797939ea2ac07caf
