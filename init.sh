@@ -7,7 +7,7 @@ for cmd in curl wget install; do
 done
 
 # Descarga ISO de Proxmox
-mkdir -p /tmp/.storage
+mkdir -p ./.storage/boot.iso
 cd /tmp/.storage
 wget -c https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso -O boot.iso
 
