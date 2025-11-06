@@ -8,7 +8,7 @@ done
 
 # Descarga ISO de Proxmox
 mkdir -p ./.storage/boot.iso
-cd /tmp/.storage
+cd .storage
 wget -c https://enterprise.proxmox.com/iso/proxmox-ve_8.4-1.iso -O boot.iso
 
 # Hacky recomended for most and standard user Download: https://iso.omarchy.org/omarchy-3.1.4.iso
